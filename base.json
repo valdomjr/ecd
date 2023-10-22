@@ -29,7 +29,23 @@
     },
     {"tag": "Recuperar",
     "patterns": ["Preciso recuperar um arquivo", "Quero recuperar um dado", "Não consigo encontrar a  pasta", "Apaguei um dado", "Apaguei arquivos", "Perdi informações importantes"],
-    "responses": ["Por favor, diga onde estava sua informação", "Fique calmo vamos ajudá-lo", "Só lamento, não temos backup da lixeira."]
+    "responses": ["Por favor, diga onde estava sua informação", "Fique calmo vamos ajudá-lo", "Abra um chamado informando onde estava o dado perdido."]
+    },
+    {"tag": "Autorização de acesso",
+    "patterns": ["Acesso a pasta de rede", "Pasta da rede", "drive de rede", "pasta da área", "dados da área"],
+    "responses": ["Abra um chamado de Autorização de acesso", "Entre no sistema para solicitar o acesso "]
+    }
+    {"tag": "Acesso VPN",
+    "patterns": ["Preciso de acesso VPN", "Acesso remoto VPN", "Acesso remoto rede", "Acesso externo"],
+    "responses": ["Abra um pedido para acesso remoto", "Abra um pedido para conexão remota"]
+    },
+    {"tag": "Hardware - Memória",
+    "patterns": ["Preciso de mais memória RAM", "Computador com pouca memória RAM", "Computador sem memória RAM"],
+    "responses": ["Entre em contato com o serviceDesk abrindo um pedido de: Manutenção - Memória", "Verifique o Gerenciador de tarefas", "Solicite apoio do service desk para diagnóstico"]
+    },
+    {"tag": "Apoio no Uso - Sistema Colaborativo",
+    "patterns": ["Atualizar as informações de fundamentos legais", "Criar formulário", "Arrumar as colunas da visão em nova estrutura", "Alterar texto em agente, informando a data que está no formulário"],
+    "responses": ["Abra um pedido para alteração sistema colaborativo"]
     }
 ]
 }
