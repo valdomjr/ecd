@@ -1,0 +1,35 @@
+{"intents": [
+    {"tag": "Boas vindas",
+     "patterns": ["Olá", "Bom dia", "Alô", "Cambio", "Buenas"],
+     "responses": ["OLá", "Bom dia", "Como posso ajudar"]
+    },
+    {"tag": "Tchau",
+     "patterns": ["Tchau", "Até mais", "Fui", "OK", "Entendido"],
+     "responses": ["Até mais", "Tenha um bom dia", "Boa semana", "Volte sempre que precisar"]
+    },
+    {"tag": "Agradecimento",
+     "patterns": ["Obrigado", "Agradeço pela atenção", "Obrigado pela ajuda", "Agradeço a orientação"],
+     "responses": ["Fico feliz em poder ajudar!", "Precisando de algo, estou a disposição!", "Por nada", "Até a próxima!"]
+    },
+    {"tag": "sobre",
+     "patterns": ["Qual o seu nome?", "Qual sua identificação?", "Quem é você?" ],
+     "responses": ["Eu sou o nesco, seu ajudante virtual", "Eu soo o Nesco, AI a seu dispor para lhe ajudar"]
+    },
+    {"tag": "Nome",
+    "patterns": ["Qual o seu nome", "Como devo lhe chamar", "Quem é você?"],
+    "responses": ["Você pode me chamar de Nesco.", "Eu sou o Nesco!", "Me chame de Nesco, por favor"]
+    },
+    {"tag": "Ajuda",
+    "patterns": ["Você pode me ajudar?", "Preciso um help", "Eu preciso de suporte?", "Você pode me orientar?", "Preciso orientação", "Estou perdido", "Ajude-me, por favor"],
+    "responses": ["Tecle como posso ajudá-lo", "No que eu posso ser útil", "Sim, eu posso lhe auxiliar"]
+    },
+    {"tag": "Criar uma conta",
+    "patterns": ["Preciso criar um conta no S.O.", "Preciso uma conta no sistema X", "Eu quero criar uma conta", "Você pode criar uma conta para mim?", "Como abrir uma nova conta ?"],
+    "responses": ["Precisa abrir um pedido de criação de conta", "Vá até o sistema S e crie um pedido para criação da conta."]
+    },
+    {"tag": "Recuperar",
+    "patterns": ["Preciso recuperar um arquivo", "Quero recuperar um dado", "Não consigo encontrar a  pasta", "Apaguei um dado", "Apaguei arquivos", "Perdi informações importantes"],
+    "responses": ["Por favor, diga onde estava sua informação", "Fique calmo vamos ajudá-lo", "Só lamento, não temos backup da lixeira."]
+    }
+]
+}
