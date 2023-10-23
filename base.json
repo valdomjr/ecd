@@ -46,6 +46,10 @@
     {"tag": "Apoio no Uso - Sistema Colaborativo",
     "patterns": ["Atualizar as informações de fundamentos legais", "Criar formulário", "Arrumar as colunas da visão em nova estrutura", "Alterar texto em agente, informando a data que está no formulário"],
     "responses": ["Abra um pedido para alteração sistema colaborativo"]
+    },
+    { "tag": "Sem respostas",
+    "patterns": [],
+    "responses": ["Desculpe, não entedi", "Não tenho certeza, pode repetir, por favor", "Não entendi sua dúvida" ],
     }
 ]
 }
