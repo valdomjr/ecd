@@ -49,7 +49,7 @@
     },
     { "tag": "Sem respostas",
     "patterns": [" "],
-    "responses": ["Desculpe, não entedi", "Não tenho certeza, pode repetir, por favor", "Não entendi sua dúvida" ]
+    "responses": ["Desculpe, não entedi", "Não tenho certeza, pode repetir, por favor", "Não entendi sua dúvida"]
     }
 ]
 }
