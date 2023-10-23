@@ -34,7 +34,7 @@
     {"tag": "Autorização de acesso",
     "patterns": ["Acesso a pasta de rede", "Pasta da rede", "drive de rede", "pasta da área", "dados da área"],
     "responses": ["Abra um chamado de Autorização de acesso", "Entre no sistema para solicitar o acesso "]
-    }
+    },
     {"tag": "Acesso VPN",
     "patterns": ["Preciso de acesso VPN", "Acesso remoto VPN", "Acesso remoto rede", "Acesso externo"],
     "responses": ["Abra um pedido para acesso remoto", "Abra um pedido para conexão remota"]
