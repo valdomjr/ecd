@@ -48,7 +48,7 @@
     "responses": ["Abra um pedido para alteração sistema colaborativo"]
     },
     { "tag": "Sem respostas",
-    "patterns": [],
+    "patterns": [" "],
     "responses": ["Desculpe, não entedi", "Não tenho certeza, pode repetir, por favor", "Não entendi sua dúvida" ]
     }
 ]
