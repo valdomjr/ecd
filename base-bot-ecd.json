@@ -1,0 +1,353 @@
+{"intents": [
+    {
+        "tag": "Bemvindo",
+        "patterns": [
+            "Olá", 
+            "Bom dia", 
+            "Boa tarde", 
+            "Boa noite", 
+            "Tem alguém aí ?", 
+            "E aí Beleza ?", 
+            "Oi", 
+            "Alô"
+        ],
+        "responses": [
+            "Olá", 
+            "Como posso ajudar ?", 
+            "Bom ver você novamente"
+        ]
+    },
+    {
+        "tag": "Tchau",
+        "patterns": [
+            "Tchau", 
+            "Até mais", 
+            "Fui", 
+            "Até breve", 
+            "Nos vemos por aí", 
+            "Até mais", 
+            "Estou saíndo"
+        ],
+        "responses": [
+            "Até mais", 
+            "Tenha um bom dia", 
+            "Boa semana", 
+            "Volte sempre que precisar"
+        ]
+    },
+    {
+        "tag": "Agradecimento",
+        "patterns": [
+            "Obrigado", 
+            "Agradeço pela atenção", 
+            "Obrigado pela ajuda", 
+            "Agradeço a orientação", 
+            "Bom trabalho", 
+            "Obrigado por ajudar", 
+            "Muito bom !"
+        ],
+        "responses": [
+            "Fico feliz em poder ajudar!", 
+            "Precisando de algo, estou a disposição!", 
+            "Por nada", "Até a próxima!"
+        ]
+    },
+    {
+        "tag": "Sobre",
+        "patterns": [
+            "Qual o seu nome?", 
+            "Qual sua identificação?", 
+            "Quem é você?", 
+            "Como você se chama ?", 
+            "Você é quem ?", 
+            "Como devo lhe chamar ?", 
+            "Qual o seu nome ?", 
+            "Com quem estou falando ?"
+        ],
+        "responses": [
+            "Eu sou o Bibi, seu ajudante virtual", 
+            "Eu sou o Bibi, AI a seu dispor para lhe ajudar"
+        ]
+    },
+    {
+        "tag": "Criadores",
+        "patterns":[
+            "Qual o nome do seu criador ?", 
+            "Qual o nome dos seus criadores ?", 
+            "Quem foi que lhe desenvolveu?", 
+            "Quem criou você ?", "Quem te inventou ?"
+        ],
+         "responses":[
+            "André e Valdo, para o trabalho final da Especialização em Ciência de Dados - PUC-RJ"
+        ]
+    },   
+    {
+        "tag": "Horário",
+        "patterns": [
+            "Qual o horário de atendimento ?", 
+            "Qual o telefone do suporte ?", 
+            "Tem um número para ligar?", 
+            "Como entro em contato?", 
+            "Funciona no fim de semana ?", 
+            "Atende no sábado ?", 
+            "Tem sobreaviso fim de semana ?"
+        ],
+        "responses": [
+            "Atendimento funciona de segunda a sexta em horário comercial. - Telefone: 0800-002019201900"
+        ]
+    },
+    {
+        "tag": "Ajuda",
+        "patterns": [
+            "Você pode me ajudar?", 
+            "Preciso um help", 
+            "Eu preciso de suporte", 
+            "Você pode me orientar?", 
+            "Preciso orientação", 
+            "Estou perdido", 
+            "Ajude-me, por favor"
+        ],
+        "responses": [
+            "Conte-me qual a sua necessidade."
+        ]
+    },
+    {
+        "tag": "Conta",
+        "patterns": [
+            "Preciso uma conta no Windows", 
+            "Preciso um usuário para entrar no computador", 
+            "Eu quero criar uma conta", 
+            "Você pode criar uma conta para mim?", 
+            "Como abrir uma nova conta ?", 
+            "Preciso uma conta para o ERP"
+        ],
+        "responses": [
+            "Entre no sistema, informe o Tipo de Serviço ( Criar conta) e o ambiente onde é necessário o acesso."
+        ]
+    },
+    {
+        "tag": "Recuperar",
+        "patterns": [
+            "Preciso recuperar um arquivo", 
+            "Quero recuperar um dado", 
+            "Apaguei uma pasta", 
+            "Apaguei um dado", 
+            "Apaguei arquivos", 
+            "Perdi informações importantes", 
+            "Apaguei vários arquivos.", 
+            "Deletei todos os meus emails"
+        ],
+        "responses": [
+            "Entre no sistema, informe o tipo de serviço ( Recuperação de dados) e informe o local onde estavam os dados."
+        ]
+    },
+    {
+        "tag": "Site",
+        "patterns": [
+            "Não consigo acessar um site",
+            "Preciso acessar o site", 
+            "Erro no acesso a um site", 
+            "Bloqueio de site", 
+            "Site não funciona"
+        ],
+        "responses": [
+            "Entre no sistema, informe o tipo de serviço ( Acesso internet) e informe o site internet que deseja acessar."
+        ]
+    },
+    {
+        "tag": "Pasta",
+        "patterns": [
+            "Preciso acesso a uma pasta", 
+            "Acesso a pasta de rede", 
+            "Acessar pasta do setor", 
+            "Acessar dados", "Pasta da área"
+        ],
+        "responses": [
+            "Entre no sistema, informe o tipo de serviço ( Acesso a pastas de rede) e informe a área onde está a pasta necessária"
+        ]
+    },
+    {
+        "tag": "Memória",
+        "patterns": [
+            "Meu computador está sem memória", 
+            "Computador sem memória", 
+            "Memória indisponível no computador", 
+            "Não há memória disponível", 
+            "Preciso mais memória", 
+            "Aumentar memória do computador"
+        ],
+        "responses": [
+            "Entre no sistema, informe o tipo de serviço ( Estação de trabalho - Memória) e informe o problema/necessidade"
+        ]
+    },
+    {
+        "tag": "Armazenamento",
+        "patterns": [
+            "Estou sem espaço em disco", 
+            "Meu computador não tem mais espaço em disco", 
+            "Disco cheio", "Drive sem espaço", 
+            "Não consigo salvar arquivos", 
+            "Aumento de espaço de armazenamento"
+        ],
+        "responses": [
+            "Entre no sistema, informe o tipo de serviço ( Estação de trabalho - Armazenamento) e informe o problema/necessidade"
+        ]
+    },
+    {
+        "tag": "Chamado",
+        "patterns": [
+            "Meu chamado não foi atendido", 
+            "Qual o status do chamado", 
+            "Não recebi retorno sobre o chamado"
+        ],
+        "responses": [
+            "Seu chamado está sendo analisado pela equipe de suporte."
+        ]
+    },
+    {
+        "tag": "Senha",
+        "patterns": [
+            "Esqueci minha senha", 
+            "Troca de senha", 
+            "Qual a minha senha", 
+            "Esqueci minha senha de acesso", 
+            "Não lembro minha senha", 
+            "Alterar a senha", 
+            "Como faço para trocar a senha"
+        ],
+        "responses": [
+            "Por favor, informe seu email que vamos lhe enviar um link para cadastrar uma nova."
+        ]
+    },
+    {
+        "tag": "email_nome",
+        "patterns": [
+            "abcd@gmail.com", 
+            "teste@gmail.com", 
+            "noemail@yahoo.com", 
+            "nesco@hidrosul.gov.br", 
+            "umabc@bol.com.br"
+        ],
+        "responses": [
+            "Um link foi enviado para o seu email para efetuar a troca."
+        ]
+    },
+    {
+        "tag": "Maquina virtual",
+        "patterns": [
+            "Criar uma máquina virtual", 
+            "Preciso uma vm", 
+            "servidor virtual", 
+            "Nova maquina virtual"
+        ],
+        "responses": [
+            "Entre no sistema, informe o tipo de serviço ( Máquina virtual - Criação) e informe os parâmetros necessários para a VM."
+        ]
+    },
+    {
+        "tag": "Desempenho",
+        "patterns": [
+            "Computador muito lento", 
+            "Meu computador está lento", 
+            "Equipamento travado", 
+            "Computador travado", 
+            "Sistema demora para responder", 
+            "Sistema lento", 
+            "Notebook travando"
+        ],
+        "responses": [
+            "Entre no sistema, informe o tipo de serviço ( Estação de trabalho - Desempenho) e forneça mais detalhes."
+        ]
+    },
+    {
+        "tag": "Configuração de rede",
+        "patterns": [
+            "Como vejo qual meu IP", 
+            "Como vejo minhas configurações de rede", 
+            "Qual o comando para ver as configurações de rede", 
+            "Qual a rede do meu computador", 
+            "Como configuro o DNS", 
+            "Alterar minhas configurações de rede"
+        ],
+        "responses": [
+            "Pesquisar->Painel de Controle - Rede e Internet -> Central de Rede e Compartilhamento -> Conexões de Rede - > Ethernet"
+        ]
+    },
+    {
+        "tag": "Wifi",
+        "patterns": [
+            "Configurar rede wireless", 
+            "Qual a senha da rede Wifi", 
+            "Qual o comando para ver as configurações do Wifi", 
+            "Preciso acesso a rede Wifi da área", 
+            "Como configuro a rede sem fio", 
+            "Gerenciar redes sem fio"
+        ],
+        "responses": [
+            "Pesquisar->Wifi: Configurações de rede WiFi"
+        ]
+    },
+    {
+        "tag": "Powershell - Info",
+        "patterns": [
+            "Comando powershell para ver configurações do computador", 
+            "powershell informações do computador ", 
+            "Qual comando me mostra as configurações do computador", 
+            "Como vejo as especificações do meu computador"
+        ],
+        "responses": [
+            "Pesquisar->Powershell->windows Powershell->Get-ComputerInfo"
+        ]
+    },
+    {
+        "tag": "Powershell - Serviços",
+        "patterns": [
+            "Comando powershell para ver os serviços ativos no Sistema", 
+            "powershell serviços iniciados", "Como vejo os serviços ativos no Windows", 
+            "Como vejo os serviços em execução"
+        ],
+        "responses": [
+            "Pesquisar->Powershell->windows Powershell->Get-Service | Where-Object {$_.Status -like 'Running'}"
+        ]
+    },
+    {
+        "tag": "Sem resposta",
+        "patterns": [
+            "Porque", 
+            "Como", 
+            "Quando", 
+            "Quem sabe", 
+            "Não sei", 
+            "Eu", 
+            "Você", 
+            "Eles"
+        ],
+        "responses": [
+            "Não entendi sua dúvida", 
+            "Por favor, seja mais específico."
+        ]
+    },
+    {
+        "tag": "Inválido",
+        "patterns": [
+            "Não sei explicar", 
+            "confusão", 
+            "Não sei como solicitar algo"
+        ],
+        "responses": [
+            "Por favor, descreve seu problema de forma mais específica."
+        ]
+    },
+    {
+        "tag": "Sem resposta",
+        "patterns": [
+
+        ],
+        "responses": [
+            "Desculpe, não entedi.", 
+            "Por favor, diga como posso ajudá-lo.", 
+            "Acho que não entedi."
+        ]
+    }
+]
+}
