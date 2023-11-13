@@ -158,9 +158,10 @@
         "tag": "Pasta",
         "patterns": [
             "Preciso acesso a uma pasta", 
-            "Acesso a pasta de rede", 
+            "Acesso a uma pasta de dados do departamanto.", 
             "Acessar pasta do setor", 
-            "Acessar dados", "Pasta da área"
+            "Acessar dados", 
+            "Pasta da área"
         ],
         "responses": [
             "Entre no sistema, informe o tipo de serviço ( Acesso a pastas de rede) e informe a área onde está a pasta necessária"
